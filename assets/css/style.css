@@ -3,3 +3,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 1400px;
+}
+/* utility */
+.d_flex {
+    display: flex;
+}
+/* color cube */
+.woodsmoke {
+    color:#121117;
+}
+.white {
+    color: #ffffff;
+}
+.abbey {
+    color: #505051;
+}
+.silver_sand {
+    color: #babdbe;
+}
+.blue_lagoon {
+    color: #038483;
+}
+.fountain_blue {
+    color: #51bdbc;
+}
+/* median cute */
+.shark {
+    color: #202427;
+}
+
+.gray_nurse {
+    color: #e4eae6;
+}
+
+.gothic {
+    color: #6c9b9c;
+}
+
+.smalt_blue {
+    color: #5c828c;
+}
+
+.bazaar {
+    color: #947474;
+}
+/* material design */
+.elm {
+    color: #1a948f;
+}
+
+.shuttle_gray {
+    color: #5e6063;
+}
+
+.atoll {
+    color: #097a7c;
+}
+
+.ebony_clay {
+    color: #24343c;
+}
+
+.bermuda {
+    color: #7ed5d5;
+}
