@@ -11,6 +11,22 @@ body {
 .d_flex {
     display: flex;
 }
+.big_container{
+    width: 80%;
+    margin: auto;
+}
+#site_header {
+    height: 500px;
+    background-color: yellow;
+}
+#site_content {
+    height: 2000px;
+    background-color: green;
+}
+#site_footer {
+    height: 650px;
+    background:red;
+}
 /* color cube */
 .woodsmoke {
     color:#121117;
@@ -70,3 +86,18 @@ body {
 .bermuda {
     color: #7ed5d5;
 }
+/* header */
+.header_top {
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    padding: 8px;
+}
+.header_top >i > span, .contacts > a > i > span {
+    margin-left: 5px;
+}
+
