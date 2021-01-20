@@ -26,6 +26,30 @@ let app = new Vue({
         font: "fab fa-linkedin-in",
       }
     ],
+    menu: [
+      {name: "HOME"},
+      {name: "ABOUT"},
+      {name: "PROCESS"},
+      {name: "TESTIMONIALS"},
+      {name: "ABOUT"}
+    ],
+    cards: [
+      {
+        img: "assets/img/Human.png",
+        title: "Human Capital",
+        paragraph: "Humanizing business: Harness the power of technlogy to improve the way people work."
+      },
+      {
+        img: "assets/img/Core.png",
+        title: "Core Business",
+        paragraph: "It takes innovative approaches to transform, modernize, and run existing platforms."
+      },
+      {
+        img: "assets/img/Performance.png",
+        title: "Performance",
+        paragraph: "Achieving maximum impact and value from investments in finance and supply chain."
+      }
+    ]
 
   },
   methods: {

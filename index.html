@@ -10,28 +10,28 @@
     </head>
     <body>
         <div id="root">
+            <!-- header -->
             <header id="site_header">
+                <!-- header top -->
                 <navbar class="header_top d_flex ebony_clay">
                     <i class="fas fa-clock"><span>Open Hours: Mon - Sat - 9:00 - 18:00</span></i>
-                    <div class="contacts">
-                        <a href="" v-for="contact in contacts"><i :class="contact.font"><span>{{contact.text}}</span></i></a>
+                    <div class="contacts"><a href="" v-for="contact in contacts"><i :class="contact.font"></i>
+                        <span>{{contact.text}}</span></i></a>
                     </div>
                 </navbar>
+                <!-- header menu -->
                 <div class="bg_image">
                     <div class="big_container">
                         <div class="header_menu d_flex">
                             <img :src="logo" alt="">
                             <div class="links">
-                                <a href=""><span>HOME</span></a>
-                                <a href=""><span>ABOUT</span></a>
-                                <a href=""><span>PROCESS</span></a>
-                                <a href=""><span>TESTIMONIALS</span></a>
-                                <a href=""><span>ABOUT</span></i></a>
+                                <a href="" v-for="link in menu"><span>{{link.name}}</span></a>
                                 <a href=""><i class="far fa-user"></i></a>
                                 <a href="" class="btn elm">GET IN TOUCH</a>
                             </div>
                         </div>
                     </div>
+                    <!-- header intro -->
                     <div class="big_container">
                         <div class="header_intro d_flex">
                             <div class="intro">
@@ -42,12 +42,17 @@
                             </div>
                         </div>
                      </div>  
-
                 </div>
-
-
             </header>
+            <!-- main -->
             <main id="site_content">
+                <section class="featured gray_nurse d_flex">
+                    <div class="card d_flex" v-for="card in cards">
+                        <img :src="card.img" alt="">
+                        <h3>{{card.title}}</h3>
+                        <p>{{card.paragraph}}</p>
+                    </div>
+                </section>
 
             </main>
 
