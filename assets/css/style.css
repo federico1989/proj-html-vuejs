@@ -15,9 +15,17 @@ body {
     width: 80%;
     margin: auto;
 }
+.btn {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #1a948f;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 30px;
+}
 #site_header {
-    height: 500px;
-    background-color: yellow;
+    height: 700px;
+    
 }
 #site_content {
     height: 2000px;
@@ -44,7 +52,7 @@ body {
     color: #038483;
 }
 .fountain_blue {
-    color: #51bdbc;
+    background-color: #51bdbc;
 }
 /* median cute */
 .shark {
@@ -68,7 +76,7 @@ body {
 }
 /* material design */
 .elm {
-    color: #1a948f;
+    background-color: #1a948f;
 }
 
 .shuttle_gray {
@@ -80,7 +88,7 @@ body {
 }
 
 .ebony_clay {
-    color: #24343c;
+    background-color: #24343c;
 }
 
 .bermuda {
@@ -91,13 +99,43 @@ body {
     height: 50px;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-a {
+.header_top > i {
+    color: #babdbe;
+}
+.contacts > a {
+    color: #babdbe;
     text-decoration: none;
-    padding: 8px;
+    padding: 15px;
 }
 .header_top >i > span, .contacts > a > i > span {
     margin-left: 5px;
 }
+.bg_image {
+    background-image: url("../img/bg-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 115%;
+}
+/* header menu */
+.header_menu {
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_menu > img {
+    margin-left: 10px;
+}
+.links > a {
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+/* header intro */
+.header_intro {
+    height: 570px;
+}
+
 

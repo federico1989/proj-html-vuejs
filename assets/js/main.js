@@ -1,7 +1,7 @@
 let app = new Vue({
   el: "#root",
   data: {
-    logo: "assets/img/logo.png",
+    logo: 'assets/img/logo.png',
     contacts: [
       {
         phone: [
