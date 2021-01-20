@@ -24,8 +24,7 @@ body {
     margin-right: 30px;
 }
 #site_header {
-    height: 700px;
-    
+    height: 900px;  
 }
 #site_content {
     height: 2000px;
@@ -95,6 +94,7 @@ body {
     color: #7ed5d5;
 }
 /* header */
+/* header top */
 .header_top {
     height: 50px;
     width: 100%;
@@ -135,7 +135,23 @@ body {
 }
 /* header intro */
 .header_intro {
-    height: 570px;
+    height: 770px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
 }
-
+.intro {
+    margin-left: 10px;
+    width: 50%;
+}
+.intro > p, .intro > h1 {
+    margin-bottom: 30px;
+}
+.intro > h1 {
+    font-size: 80px;
+    color: #ffffff;
+}
+.intro > p > span {
+    font-size: 20px;
+}
 
