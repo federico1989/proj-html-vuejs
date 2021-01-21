@@ -203,6 +203,7 @@ body {
 }
 .form_group > input {
     margin-bottom: 10px;
+    margin-right: 10px;
 }
 .form_group a {
 
@@ -210,6 +211,7 @@ body {
 textarea {
     background-color: #202427;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .other_info {
@@ -220,6 +222,20 @@ textarea {
 }
 .other_info > ul {
     list-style: none;
+}
+.other_info i {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #058283;
+    background-color: #0f2228;
+    margin-right: 10px;
+}
+.other_info li {
+    color: #058283;
 }
 footer p {
     color: #babdbe;

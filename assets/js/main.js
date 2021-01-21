@@ -49,6 +49,23 @@ let app = new Vue({
         title: "Performance",
         paragraph: "Achieving maximum impact and value from investments in finance and supply chain."
       }
+    ],
+        otherContacts: [
+      {
+        name: "phone",
+        font: "fas fa-phone-alt",
+        text: "+1(305) 1234-5678",
+      },
+      {
+        name: "email",
+        font: "fas fa-envelope",
+        text: "hello@example.com",
+      },
+      {
+        name: "andress",
+        font: "fas fa-map-marker-alt",
+        text: "Main Avenue, 987",
+      },
     ]
 
   },

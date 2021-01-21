@@ -69,7 +69,7 @@
                             <select name="more info" id="more info">
                                 <option value="australia">More info</option>
                             </select><br>
-                            <textarea name="message" id="" cols="81" rows="10" placeholder="Message"></textarea><br>
+                            <textarea name="message" id="" cols="82" rows="10" placeholder="Message"></textarea><br>
                             <a href=""class="btn elm white">SEND</a>
                         </div>
                     </div>
@@ -78,9 +78,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <p>Eveniet unde id fugiat ad! Corrupti rem, temporibus neque asperiores ex repellat dignissimos eaque.</p>
                         <ul>
-                            <li>ciao</li>
-                            <li>ciao</li>
-                            <li>ciao</li>
+                            <li v-for="contact in otherContacts"><i :class="contact.font"></i>{{contact.text}}</li>
                             <li><a href=""class="btn white">VIEW MAP</a></li>
                         </ul>
                     </div>
