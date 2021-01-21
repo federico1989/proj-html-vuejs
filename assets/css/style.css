@@ -186,6 +186,21 @@ body {
     width: 50px;
     font-size: 30px;
 }
+/* company */
+.company {
+    height: 600px;
+}
+.company_text {
+    width: 50%;
+}
+.company_bg {
+    width: 50%;
+}
+.company_bg {
+    background-image: url("../img/about-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* footer */
 .form {
     width: 70%;
