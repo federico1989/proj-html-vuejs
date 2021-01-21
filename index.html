@@ -56,13 +56,26 @@
                 </section>
                 <!-- company -->
                 <section class="company d_flex">
-                    <div class="company_text">
-                        ciao
+                    <div class="company_info">
+                        <div class="company_text d_flex">
+                            <span class="atoll about">ABOUT THE NETWORK</span>
+                            <h2><span class="atoll bg_letters">The </span>Company</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab soluta, temporibus porro consequuntur consectetur error.</p>
+                        </div>
+                        <div class="company_cards d_flex">
+                            <div class="mini_card" v-for="card in cards">
+                                <img :src="card.img" alt="">
+                                 <h3>{{card.title}}</h3>
+                                <p>{{card.paragraph}}</p>
+                            </div>
+                        </div>
+                        <div class="company_btn">
+                            <a href=""class="btn elm white">GET IN TOUCH</a>
+                            <a href=""class="btn atoll">READ MORE</a>
+                        </div>
                     </div>
                     <div class="company_bg">
                     </div>
-
-
                 </section>
 
             </main>
@@ -71,7 +84,7 @@
                 <div class="big_container d_flex">
                     <div class="form d_flex">
                         <span class="send atoll">SEND A MESSAGE</span>
-                        <h2 class="white">Get in <span class="bg_letters">touch</span></h2>
+                        <h2 class="white">Get in <span class="bg_letters_black">touch</span></h2>
                         <p>We will respond to your message as soon as possible</p>
                         <div class="form_group">
                             <input type="text" name="name" placeholder="Name">
