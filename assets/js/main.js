@@ -50,7 +50,7 @@ let app = new Vue({
         paragraph: "Achieving maximum impact and value from investments in finance and supply chain."
       }
     ],
-        otherContacts: [
+    otherContacts: [
       {
         name: "phone",
         font: "fas fa-phone-alt",
@@ -65,6 +65,23 @@ let app = new Vue({
         name: "andress",
         font: "fas fa-map-marker-alt",
         text: "Main Avenue, 987",
+      },
+    ],
+    companies: [
+      {
+        number: "0",
+        title: "Employees",
+        description: "Lorem ipsum dolor sit amet.",
+      },
+      {
+        number: "0",
+        title: "Partners",
+        description: "Lorem ipsum dolor sit amet.",
+      },
+      {
+        number: "0",
+        title: "Customers",
+        description: "Lorem ipsum dolor sit amet.",
       },
     ]
 

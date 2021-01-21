@@ -5,6 +5,10 @@
         <title>personal project</title>
         <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
@@ -63,10 +67,10 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab soluta, temporibus porro consequuntur consectetur error.</p>
                         </div>
                         <div class="company_cards d_flex">
-                            <div class="mini_card" v-for="card in cards">
-                                <img :src="card.img" alt="">
-                                 <h3>{{card.title}}</h3>
-                                <p>{{card.paragraph}}</p>
+                            <div class="mini_card" v-for="company in companies">
+                                <span class="number">{{company.number}}</span>
+                                <h3>{{company.title}}</h3>
+                                <p>{{company.description}}</p>
                             </div>
                         </div>
                         <div class="company_btn">
@@ -77,9 +81,8 @@
                     <div class="company_bg">
                     </div>
                 </section>
-
             </main>
-
+            <!-- footer -->
             <footer id="site_footer">
                 <div class="big_container d_flex">
                     <div class="form d_flex">
