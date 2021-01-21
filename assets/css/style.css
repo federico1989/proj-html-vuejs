@@ -32,7 +32,7 @@ body {
 #site_footer {
     height: 650px;
     flex-direction: column;
-    background:red;
+    background: #121212;
 }
 /* color cube */
 .woodsmoke {
@@ -48,7 +48,7 @@ body {
     color: #babdbe;
 }
 .blue_lagoon {
-    color: #038483;
+    background-color: #038483;
 }
 .fountain_blue {
     background-color: #51bdbc;
@@ -183,17 +183,47 @@ body {
 }
 /* footer */
 .form {
-    width: 60%;
+    width: 70%;
     justify-content: center;
     flex-direction: column;
-    
 }
+.form, .other_info {
+    margin-top: 150px;
+}
+.send {
+    text-decoration: solid;
+}
+.form_group > input, .form_group > select {
+    background-color: #202427;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    color: grey;
+}
+.form_group > input {
+    margin-bottom: 10px;
+}
+.form_group a {
+
+}
+textarea {
+    background-color: #202427;
+    padding: 10px;
+}
+
 .other_info {
-    width: 40%;
+    width: 30%;
     justify-content: center;
     flex-direction: column;
-    align-content: flex-start;
-    
+    align-content: flex-start; 
 }
+.other_info > ul {
+    list-style: none;
+}
+footer p {
+    color: #babdbe;
+}
+
 
 
